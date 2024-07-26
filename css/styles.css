@@ -84,7 +84,7 @@
 /**************************/
 
 .section-hero {
-  padding: 4.8rem 0;
+  padding: 3.2rem 0;
 }
 
 .hero {
@@ -102,7 +102,7 @@
 }
 
 .text-box {
-  padding: 8rem 3.2rem;
+  padding: 6.4rem 3.2rem;
 }
 
 .hero-header-text {
@@ -115,15 +115,37 @@
 
 .subheading-text {
   font-size: 1.4rem;
+  line-height: 1.1;
   margin-bottom: 3.2rem;
 }
 
 .hero-paragraph {
   font-size: 2rem;
+  line-height: 1.1;
+  margin-bottom: 3.2rem;
 }
 
 .hero-img {
   background-image: url("../images/hero-section/hero-img.jpg");
   background-size: cover;
   background-position: center;
+}
+
+.btn:link,
+.btn:visited {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1.2rem 2.4rem;
+  border-radius: 50px;
+  background-color: #694e24;
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.6rem;
+}
+
+.btn-icon {
+  height: 2.4rem;
+  width: 2.4rem;
+  margin-left: 0.8rem;
 }
