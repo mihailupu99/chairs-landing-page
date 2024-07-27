@@ -11,6 +11,7 @@ COLORS
 
 Grays: 
 #495057
+#e9ecef
 
 Main Color:  #966F33
 Tints and shades of main color:
@@ -43,7 +44,7 @@ body {
 }
 
 .container {
-  max-width: 120rem;
+  max-width: 130rem;
   padding: 0 3.2rem;
   margin: 0 auto;
 }

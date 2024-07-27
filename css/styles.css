@@ -87,11 +87,6 @@
   padding: 3.2rem 0;
 }
 
-.hero {
-  max-width: 130rem;
-  margin: 0 auto;
-}
-
 .container-hero {
   display: grid;
   background-color: #e0d4c2;
@@ -158,3 +153,46 @@
 /**************************/
 /*      Categories        */
 /**************************/
+
+.categories-box {
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+}
+
+.heading-secondary {
+  font-size: 2.4rem;
+  font-weight: 600;
+  line-height: 1.2;
+}
+
+.categories-icons {
+  display: flex;
+  align-items: center;
+  gap: 2.4rem;
+}
+
+.icon-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.4rem;
+  padding: 3.2rem;
+  border-radius: 50%;
+
+  width: 10rem;
+  height: 10rem;
+
+  background-color: #e9ecef;
+}
+
+.icon-style {
+  font-size: 3.6rem;
+  color: #694e24;
+}
+
+.icon-text {
+  font-size: 1.2rem;
+  font-weight: 500;
+}
